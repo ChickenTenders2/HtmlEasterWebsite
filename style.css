@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0; /* remove white space */
+}
+
+body{
+    background-color: #f2f7f9; /* background of page */
+}
+
+nav {
+    width: 100%; /* width of menu box */
+    height: 100px; /* position of menu box */
+    background-color: #36517c; /* background of menu */
+    position: fixed;
+    overflow: hidden;
+}
+
+.menulist {
+    margin-left: 30px; /* move all menu texts to the right */
+    margin-top: 20px;
+}
+
+.menulist {
+    list-style: none; /* remove bullet points */
+    display: inline-block; /* make links next to each other */
+    line-height: 60px; /* position of text in menu */
+}
+
+.menulist {
+    display: block; /* clickable size of each text becomes a box */
+    text-decoration: none; /* remove underline link */
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 0 10px;
+}
+
+.form {
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.introparagraph {
+    padding-top: 120px;
+    padding-left: 40px;
+}
